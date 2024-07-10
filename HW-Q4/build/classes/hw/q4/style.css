@@ -1,0 +1,128 @@
+.root {
+    -fx-font-family: "Cairo";
+    -fx-background-color: #f0f0f0;
+    -fx-padding: 20px;
+    -fx-font-family: "Cairo";
+    -fx-direction: rtl;
+}
+
+.label {
+    -fx-text-fill: #0043b5;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.intro-label {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e5f4ff; 
+    -fx-background-color: #0969ff; 
+    -fx-alignment: center;
+    -fx-padding: 20px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 10, 0, 0, 5);
+}
+
+.text-field {
+    -fx-background-color: #ffffff; 
+    -fx-border-color: #9bc2ff; 
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #9bc2ff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-padding: 5px;
+}
+
+.button {
+    -fx-background-color: #1d72fe; 
+    -fx-text-fill: #e5f4ff; 
+    -fx-font-weight: bold;
+    -fx-border-radius: 3px;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 3, 0, 0, 1);
+}
+
+.errorViewer {
+    -fx-text-fill: #ff0000;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.hbox .button {
+    -fx-background-color: #0058e4; 
+}
+
+.hbox .button:hover {
+    -fx-background-color: #0969ff; 
+}
+
+.button-exit {
+    -fx-background-color: #004ecc; 
+    -fx-text-fill: #e5f4ff; 
+}
+
+.button-exit:hover {
+    -fx-background-color: #0043b5; 
+}
+
+.insert {
+    -fx-background-color: #3984fe; 
+    -fx-text-fill: #e5f4ff; 
+}
+
+.update {
+    -fx-background-color: linear-gradient(to right, #9bc2ff, #64a0ff); 
+    -fx-text-fill: #004ecc; 
+}
+
+.delete {
+    -fx-background-color: #cde2ff;
+    -fx-text-fill: #0043b5;
+}
+
+.show {
+    -fx-background-color: linear-gradient(to right, #1d72fe, #0058e4);
+    -fx-text-fill: #e5f4ff;
+}
+
+.radio-button {
+    -fx-text-fill: #004ecc;
+}
+
+.choice-box {
+    -fx-background-color: #ffffff; 
+    -fx-border-color: #9bc2ff; 
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-text-fill: #004ecc;
+}
+
+.date-picker {
+    -fx-background-color: #ffffff; 
+    -fx-border-color: #9bc2ff; 
+    -fx-border-width: 1px;
+    -fx-border-radius: 3px;
+    -fx-text-fill: #004ecc; 
+}
+
+.grid-background {
+    -fx-background-color: linear-gradient(to right, #9bc2ff, #64a0ff); 
+    -fx-background-size: 400% 100%;
+    -fx-animation: gradientAnimation 15s infinite alternate-reverse;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        -fx-background-position: 0% 50%;
+    }
+    100% {
+        -fx-background-position: 100% 50%;
+    }
+}
